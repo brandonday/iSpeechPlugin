@@ -30,9 +30,9 @@
         
         ISSpeechSynthesis *synthesis = [[ISSpeechSynthesis alloc] initWithText:text];
         /* Configuration changes here: */
-        //[synthesis setVoice:ISVoiceEURSpanishMale];
-        //[synthesis setBitrate:48];
-        //[synthesis setSpeed:0];
+        [synthesis setVoice:ISVoiceEURSpanishMale];
+        [synthesis setBitrate:48];
+        [synthesis setSpeed:0];
         
         [synthesis setDelegate:self];
         
